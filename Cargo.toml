@@ -9,4 +9,4 @@ edition = "2021"
 bit_field = "0.10.1"
 log = "0.4"
 arch = { git = "https://github.com/Byte-OS/arch.git" }
-sync = { path = "../sync" }
+sync = { git = "https://github.com/Byte-OS/sync.git" }
