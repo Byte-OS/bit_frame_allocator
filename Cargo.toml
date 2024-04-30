@@ -8,5 +8,5 @@ edition = "2021"
 [dependencies]
 bit_field = "0.10.1"
 log = "0.4"
-arch = { git = "https://github.com/Byte-OS/arch.git" }
+polyhal = { git = "https://github.com/Byte-OS/polyhal.git" }
 sync = { git = "https://github.com/Byte-OS/sync.git" }
