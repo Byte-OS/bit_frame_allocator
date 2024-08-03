@@ -6,8 +6,7 @@ extern crate alloc;
 use core::mem::size_of;
 
 use alloc::vec::Vec;
-use polyhal::addr::PhysPage;
-use polyhal::{PAGE_SIZE, VIRT_ADDR_START};
+use polyhal::{addr::PhysPage, consts::VIRT_ADDR_START, pagetable::PAGE_SIZE};
 use bit_field::{BitArray, BitField};
 use log::info;
 use sync::Mutex;
